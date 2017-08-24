@@ -1,4 +1,4 @@
-package com.appium;
+package com.longnguyen;
 
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
