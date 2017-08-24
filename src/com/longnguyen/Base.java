@@ -13,7 +13,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 public class Base {
 
 	public static AndroidDriver<AndroidElement> setCapability() throws MalformedURLException {
-		File appDemo = new File("src\\ApiDemos-debug.apk");
+		File appDemo = new File("..\\app\\ApiDemos-debug.apk");
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Demo");
 		capabilities.setCapability(MobileCapabilityType.APP, appDemo.getAbsolutePath());
