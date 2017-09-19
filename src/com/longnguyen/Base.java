@@ -15,7 +15,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 public class Base {
 	
 
-	public static void setCapability() throws MalformedURLException {
+	public static AndroidDriver<AndroidElement> setCapability() throws MalformedURLException {
 		AndroidDriver<MobileElement> driver;
 		//File appDemo = new File("src\\ApiDemos-debug.apk");
 		//File appDemo = new File("src\\jp.co.toshiba.android.FlashAir_2017-04-27.apk");
@@ -34,6 +34,7 @@ public class Base {
 		driver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		//return driver;
+		return null;
 	}
 
 }

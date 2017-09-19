@@ -97,6 +97,8 @@ public class Demo extends Base {
 		System.out.println("Open Help");
 		Thread.sleep(5000);
 		
+		
+		//WebElement content =  driver.findElement(By.xpath("//"))
 		// driver.findElementByXPath("//android.view.View[@content-desc='Getting
 		// started with FlashAir Link']").click();
 		// //
